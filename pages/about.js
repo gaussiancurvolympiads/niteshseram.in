@@ -39,8 +39,8 @@ const Skills = () => {
 	const skills = Object.values(tools).filter((tool) => tool.include)
 	return (
 		<section>
-			<h1 className='heading'>Tools & Technologies</h1>
-			<p className='mb-4'>
+			<h1 className='heading'></h1>
+			<p className='mb-4'></p>
 				
 		
 		</section>
