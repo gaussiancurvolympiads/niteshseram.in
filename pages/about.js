@@ -8,7 +8,6 @@ const About = () => (
 	<Container title='About | MS'>
 		<ContentWrapper className='self-center max-w-full sm:max-w-[30rem] md:max-w-[42rem]'>
 			<Intro />
-			<Skills />
 			<TimelineContainer />
 		</ContentWrapper>
 	</Container>
