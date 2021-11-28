@@ -25,7 +25,7 @@ const Intro = () => (
 		<p>
 			
 		</p>
-		<h2 className='heading text-xl md:text-2xl mt-8 mb-4'>Interests</h2>
+		<h2 className='heading text-xl md:text-2xl mt-8 mb-4'>What we do?</h2>
 		<p className='mb-2 md:mb-4'>
 		
 		</p>
@@ -35,26 +35,9 @@ const Intro = () => (
 	</section>
 )
 
-const Skills = () => {
-	const skills = Object.values(tools).filter((tool) => tool.include)
-	return (
-		<section>
-			<h1 className='heading'></h1>
-			<p className='mb-4'></p>
-				
-		
-		</section>
-	)
-}
 
-const Skill = ({ name, icon }) => (
-	<li className='flex flex-col text-center justify-center items-center m-2 2xl:m-4'>
-		{React.createElement(icon, {
-			className: 'h-8 w-8 lg:h-12 lg:w-12 2xl:h-16 2xl:w-16 mb-2',
-		})}
-		{name}
-	</li>
-)
+
+
 
 const TimelineContainer = () => (
 	<section>
