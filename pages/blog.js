@@ -1,6 +1,5 @@
-import BlogCard from '@/components/BlogCard'
 import Container from '@/layouts/Container'
-import { getAllFilesFrontMatter } from '@/lib/mdx'
+
 
 const Blog = ({ posts }) => (
 	<Container
@@ -16,7 +15,7 @@ const Blog = ({ posts }) => (
 		</div>
 	</Container>
 )
-
+<Blog/>
 
 
 export default Blog
