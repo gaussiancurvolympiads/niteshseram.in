@@ -1,7 +1,6 @@
 const { default: Container } = require('@/layouts/Container')
 const { default: ContentWrapper } = require('@/layouts/ContentWrapper')
 import Timeline from '@/components/Timeline'
-import * as tools from '@/data/tools'
 import React from 'react'
 
 const About = () => (
