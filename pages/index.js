@@ -26,17 +26,16 @@ const Hero = () => (
 		<div className='flex lg:flex-1 items-center lg:items-start justify-center flex-col max-w-xl'>
 			<h1 className='font-bold text-3xl md:text-5xl lg:text-6xl tracking-tight text-dark dark:text-light'>
 				Hi, I&apos;m
-				<span className='text-primary dark:text-secondary'> Nitesh Seram</span>
+				<span className='text-primary dark:text-secondary'> Mathematical Society</span>
 			</h1>
 			<h2 className='font-bold text-md md:text-xl lg:text-2xl mb-4 lg:mb-8'>
-				Software Engineer based in India
+				Mathematics Organisation
 			</h2>
 			<p className='text-center lg:text-left text-lg lg:text-xl pb-4 lg:pb-8'>
-				Welcome to my digital corner where you can find my works, thoughts and
-				random things.
+				Welcome to the world of MS
 			</p>
 			<Link href='#contact' passHref>
-				<button className='btn btn-themed uppercase'>Get in Touch</button>
+				<button className='btn btn-themed uppercase'>Know More?</button>
 			</Link>
 		</div>
 		<div className='flex items-center justify-center flex-none lg:flex-1'>
@@ -102,17 +101,15 @@ const ContactSection = () => (
 		<h2 className='text-center heading'>Get In Touch</h2>
 		<div className='flex flex-col lg:flex-row w-full items-center justify-around'>
 			<div className='mb-16 xl:mr-16 flex-1 max-w-full md:max-w-[70%]'>
-				<h3 className='font-bold text-xl md:text-lg mb-2'>Let&apos;s chat!</h3>
+				<h3 className='font-bold text-xl md:text-lg mb-2'>!</h3>
 				<p className='mb-8'>
-					If you want to collaborate or have any questions, opportunities, or
-					might simply want to say hello then, feel free to fill out my contact
-					form and I&apos;ll without a doubt hit you up in a hurry.
+					Contact
 				</p>
 				<p>
-					Or if you would prefer to, you can also reach me on{' '}
+					Or if you would prefer to, you can also reach us on 
 					<a
 						className='link'
-						href='https://twitter.com/niteshseram'
+						href=' '
 						target='_blank'
 						rel='noreferrer noopener'
 					>
