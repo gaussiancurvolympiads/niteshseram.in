@@ -1,7 +1,7 @@
 import Container from '@/layouts/Container'
 
 
-const Blog = ({ posts }) => (
+const Blog = ({  }) => (
 	<Container
 		title='Blog'
 		description=''
