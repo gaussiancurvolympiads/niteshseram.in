@@ -15,7 +15,6 @@ const Blog = ({  }) => (
 		</div>
 	</Container>
 )
-<Blog/>
 
 
 export default Blog
