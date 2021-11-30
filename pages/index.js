@@ -39,7 +39,7 @@ const Hero = () => (
 		<div className='flex items-center justify-center flex-none lg:flex-1'>
 			<div className='w-[200px] lg:w-[400px] h-[200px] lg:h-[400px] p-1 lg:p-2 border-2 lg:border-4 border-solid border-primary dark:border-secondary rounded-full'>
 				<Image
-					src="https://imgur.com/Ei9HV47.png"
+					src='https://imgur.com/Ei9HV47.png'
 					width={400}
 					height={400}
 					alt='Profile Picture'
