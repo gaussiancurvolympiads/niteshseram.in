@@ -2,7 +2,7 @@ import Container from '@/layouts/Container'
 import Link from 'next/link'
 
 const PageNotFound = () => (
-	<Container title='404 | Nitesh Seram'>
+	<Container title='404'>
 		<div className='flex flex-col items-center justify-center h-[70vh]'>
 			<h1 className='font-bold text-6xl md:text-9xl'>
 				4<span className='text-primary dark:text-secondary'>0</span>4
