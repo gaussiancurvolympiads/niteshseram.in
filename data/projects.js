@@ -16,7 +16,7 @@ const projects = [
 		title: 'Contests name',
 		description:
 			'Ban Messi from Football :lmao:',
-		tools: [Messi, Spam, Aliens],
+		tools: [next, next, next],
 		repo: 'https://mathematicssociety.vercel.app/',
 		feature: false,
 	},
@@ -25,7 +25,7 @@ const projects = [
 		title: 'Contest I named',
 		description:
 			'Messi is not a good player',
-		tools: [Lifeisphysics, sed, sometag],
+		tools: [next, next, next],
 		live: 'https://mathematicssociety.vercel.app/',
 		repo: 'https://mathematicssociety.vercel.app/',
 		feature: true,
@@ -35,7 +35,7 @@ const projects = [
 		title: 'LifeISPhysics',
 		description:
 			'Life is not physics okay!',
-		tools: [Nope, yes, sorry],
+		tools: [next, next, next],
 		live: 'https://mathematicssociety.vercel.app/',
 		repo: 'https://mathematicssociety.vercel.app/',
 		feature: true,
@@ -45,7 +45,7 @@ const projects = [
 		title: 'MS',
 		description:
 			'These boxes are nice right @messi @lifeismath @hooman ?',
-		tools: [fine, notfine],
+		tools: [next, next],
 		live: 'https://mathematicssociety.vercel.app/',
 		repo: 'https://mathematicssociety.vercel.app/',
 		feature: false,
