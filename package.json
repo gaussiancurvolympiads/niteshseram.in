@@ -1,10 +1,10 @@
 {
-	"name": "https://mathematicssociety.vercel.app/",
+	"name": "niteshseram.in",
 	"version": "0.1.0",
 	"private": false,
-	"description": " ",
+	"description": "My personal website built using Next.js, ChakraUI and MDX",
 	"license": "MIT",
-	"author": "https://mathematicssociety.vercel.app/,
+	"author": "Nitesh Seram <niteshseram@gmail.com>",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
