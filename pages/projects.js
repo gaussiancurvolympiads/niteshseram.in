@@ -4,7 +4,7 @@ import Container from '@/layouts/Container'
 import ContentWrapper from '@/layouts/ContentWrapper'
 
 const Projects = () => (
-	<Container title='Projects | Nitesh Seram'>
+	<Container title='Contests '>
 		<ContentWrapper className='self-center'>
 			<Project />
 		</ContentWrapper>
@@ -13,9 +13,9 @@ const Projects = () => (
 
 const Project = () => (
 	<section className='mt-4 md:mt-8'>
-		<h1 className='heading mb-2'>Projects</h1>
+		<h1 className='heading mb-2'>Contests</h1>
 		<p className='text-lg mb-8'>
-			Here are some side projects that I&apos;ve recently worked on.
+			Here are some recent contest by MS
 		</p>
 		<ProjectList />
 	</section>
