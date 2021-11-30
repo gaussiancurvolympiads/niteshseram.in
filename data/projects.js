@@ -1,13 +1,7 @@
 import {
-	hsql,
-	MDX,
-	monogdb,
-	next,
-	node,
-	react,
-	springboot,
-	styledcomponents,
-	tailwind,
+	Messi, Spam, Aliens,
+	Lifeisphysics, sed, sometag,
+	Nope, yes, sorry,fine, notfine
 } from '@/data/tools'
 
 const projects = [
@@ -25,7 +19,7 @@ const projects = [
 		title: 'Contest I named',
 		description:
 			'Messi is not a good player',
-		tools: [Lifeisphysics, sed, some Tag],
+		tools: [Lifeisphysics, sed, sometag],
 		live: 'https://mathematicssociety.vercel.app/',
 		repo: 'https://mathematicssociety.vercel.app/',
 		feature: true,
@@ -45,7 +39,7 @@ const projects = [
 		title: 'MS',
 		description:
 			'These boxes are nice right @messi @lifeismath @hooman ?',
-		tools: [fine, not fine],
+		tools: [fine, notfine],
 		live: 'https://mathematicssociety.vercel.app/',
 		repo: 'https://mathematicssociety.vercel.app/',
 		feature: false,
