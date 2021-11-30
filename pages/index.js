@@ -7,7 +7,7 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function Home  = () => (
+export default function Home() {
 	return (
 		<Container>
 			<ContentWrapper>
@@ -17,7 +17,7 @@ export default function Home  = () => (
 			</ContentWrapper>
 		</Container>
 	)
-)
+}
 
 const Hero = () => (
 	<div className='flex items-center justify-evenly lg:justify-between flex-col-reverse lg:flex-row w-full min-h-[90vh]'>
@@ -110,12 +110,4 @@ const ContactSection = () => (
 	</div>
 )
 
-export const getStaticProps = async () => {
-	const posts = await getAllFilesFrontMatter('blog')
-	posts
-		.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
-		.slice(0, 4)
-	return {
-		props: { posts },
-	}
-}
+
