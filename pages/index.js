@@ -1,4 +1,3 @@
-import BlogCard from '@/components/BlogCard'
 import ContactForm from '@/components/ContactForm'
 import ProjectCard from '@/components/ProjectCard'
 import projects from '@/data/projects'
@@ -25,7 +24,7 @@ const Hero = () => (
 	<div className='flex items-center justify-evenly lg:justify-between flex-col-reverse lg:flex-row w-full min-h-[90vh]'>
 		<div className='flex lg:flex-1 items-center lg:items-start justify-center flex-col max-w-xl'>
 			<h1 className='font-bold text-3xl md:text-5xl lg:text-6xl tracking-tight text-dark dark:text-light'>
-				Hi, I&apos;m
+			
 				<span className='text-primary dark:text-secondary'> Mathematical Society</span>
 			</h1>
 			<h2 className='font-bold text-md md:text-xl lg:text-2xl mb-4 lg:mb-8'>
@@ -51,28 +50,17 @@ const Hero = () => (
 	</div>
 )
 
-const BlogSection = ({ posts }) => (
-	<div className='flex flex-col w-full'>
-		<h2 className='text-center heading'>Recent Blogs</h2>
-		<ul className='self-center mt-5 w-full md:max-w-[80%] lg:max-w-[70%]'>
-			{posts.map((post, index) => (
-				<li key={index}>
-					<BlogCard post={post} />
-				</li>
-			))}
-		</ul>
-	</div>
-)
+
 
 const FeaturedProjects = () => (
 	<div className='flex flex-col w-full m-auto'>
-		<h2 className='text-center heading'>Featured Projects</h2>
+		<h2 className='text-center heading'>Contests and Handouts</h2>
 		<div className='flex flex-col xl:flex-row justify-evenly w-full'>
 			<Projects />
 		</div>
 		<Link href='/projects' passHref>
 			<a className='btn btn-secondary-themed capitalize text-center self-center'>
-				See all projects
+				See everything
 			</a>
 		</Link>
 	</div>
