@@ -13,16 +13,16 @@ import {
 const projects = [
 	{
 		id: 1,
-		title: 'Contests',
+		title: 'Contests name',
 		description:
-			'MS',
+			'Ban Messi from Football :lmao:',
 		tools: [Messi, Spam, Aliens],
 		repo: 'https://mathematicssociety.vercel.app/',
 		feature: false,
 	},
 	{
 		id: 2,
-		title: 'Contest I name',
+		title: 'Contest I named',
 		description:
 			'Messi is not a good player',
 		tools: [Lifeisphysics, sed, some Tag],
@@ -44,7 +44,7 @@ const projects = [
 		id: 4,
 		title: 'MS',
 		description:
-			'MS',
+			'These boxes are nice right @messi @lifeismath @hooman ?',
 		tools: [fine, not fine],
 		live: 'https://mathematicssociety.vercel.app/',
 		repo: 'https://mathematicssociety.vercel.app/',
