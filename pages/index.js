@@ -3,7 +3,6 @@ import ProjectCard from '@/components/ProjectCard'
 import projects from '@/data/projects'
 import Container from '@/layouts/Container'
 import ContentWrapper from '@/layouts/ContentWrapper'
-import { getAllFilesFrontMatter } from '@/lib/mdx'
 import Image from 'next/image'
 import Link from 'next/link'
 
