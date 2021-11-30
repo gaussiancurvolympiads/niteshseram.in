@@ -21,13 +21,13 @@ const Container = ({ children, ...customMeta }) => {
 const Seo = ({ ...customMeta }) => {
 	const router = useRouter()
 	const meta = {
-		title: 'Nitesh Seram - Software Engineer',
+		title: 'MS- Mathematical Society',
 		description:
-			'Software Engineer, Full Stack Developer, and Open Source enthusiast',
-		image: 'https://niteshseram.in/static/images/banner.png',
+			'About',
+		image: 'https://media.discordapp.net/attachments/852527282581012542/914388100409597983/MATHEMATICAL_2-removebg-preview_1.png',
 		type: 'website',
 		keywords:
-			'Software Engineer, Full Stack Developer, Open Source, Web Developer, Programmer, Seram Nitesh Singh, Nitesh Seram, Nitesh Singh',
+			'',
 		...customMeta,
 	}
 
@@ -38,11 +38,11 @@ const Seo = ({ ...customMeta }) => {
 			<meta content={meta.description} name='description' />
 			<meta
 				property='og:url'
-				content={`https://niteshseram.in${router.asPath}`}
+				content={`https://mathematicssociety.vercel.app/${router.asPath}`}
 			/>
 			<link rel='canonical' href={`https://niteshseram.in${router.asPath}`} />
 			<meta property='og:type' content={meta.type} />
-			<meta property='og:site_name' content='Nitesh Seram' />
+			<meta property='og:site_name' content='MS' />
 			<meta property='og:description' content={meta.description} />
 			<meta property='og:title' content={meta.title} />
 			<meta property='og:image' content={meta.image} />
