@@ -1,8 +1,6 @@
-import BlogCard from '@/components/BlogCard'
 import Container from '@/layouts/Container'
-import { getAllFilesFrontMatter } from '@/lib/mdx'
 
-const Blog = ({ posts }) => (
+const Blog = () => (
 	<Container
 		title='MS'
 		description=''
@@ -12,23 +10,11 @@ const Blog = ({ posts }) => (
 			<p>
 			
 			</p>
-			<ul className='mt-5'>
-				{posts.map((post, index) => (
-					<li key={index}>
-						<BlogCard post={post} />
-					</li>
-				))}
-			</ul>
+		
 		</div>
 	</Container>
 )
 
-export const getStaticProps = async () => {
-	let posts = await getAllFilesFrontMatter('blog')
-	posts.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
-	return {
-		props: { posts },
-	}
-}
+
 
 export default Blog
