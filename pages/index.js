@@ -12,7 +12,6 @@ export default function Home({ posts }) {
 		<Container>
 			<ContentWrapper>
 				<Hero />
-				<BlogSection posts={posts} />
 				<FeaturedProjects />
 				<ContactSection />
 			</ContentWrapper>
