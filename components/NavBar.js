@@ -21,7 +21,7 @@ const NavBar = ({ toggleIsOpen }) => {
 				<div className='hidden lg:flex  flex-column'>
 					<Item href='/'>Home</Item>
 					<Item href='/about'>About</Item>
-					<Item href='/projects'>Projects</Item>
+					<Item href='/projects'>Contests</Item>
 					<Item href='/blog'>Blog</Item>
 				</div>
 				<button
@@ -67,7 +67,7 @@ export const MobileNavMenu = () => (
 	<div className='p-4 w-full my-8 space-y-8 flex flex-col pl-0'>
 		<Item href='/'>Home</Item>
 		<Item href='/about'>About</Item>
-		<Item href='/projects'>Projects</Item>
+		<Item href='/projects'>Contests</Item>
 		<Item href='/blog'>Blog</Item>
 	</div>
 )
