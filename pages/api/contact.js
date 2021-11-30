@@ -16,7 +16,7 @@ const mailer = async (req, res) => {
 	try {
 		await transporter.sendMail({
 			from: email,
-			to: 'niteshseram@gmail.com',
+			to: '',
 			subject: `Contact form submission from ${name}`,
 			html: `<p>You have a contact form submission</p><br>
         <p><strong>Email: </strong> ${email}</p><br>
