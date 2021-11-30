@@ -6,6 +6,11 @@ import ContentWrapper from '@/layouts/ContentWrapper'
 import Image from 'next/image'
 import Link from 'next/link'
 
+	<Container
+		title='MS|Home'
+		description='Home'
+	> 
+      
 export default function Home() {
 	return (
 		<Container>
