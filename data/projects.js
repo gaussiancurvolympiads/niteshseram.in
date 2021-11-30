@@ -16,7 +16,7 @@ const projects = [
 		title: 'Contests',
 		description:
 			'MS',
-		tools: [next, tailwind, MDX],
+		tools: [Messi, Spam, Aliens],
 		repo: 'https://mathematicssociety.vercel.app/',
 		feature: false,
 	},
@@ -25,7 +25,7 @@ const projects = [
 		title: 'Contest I name',
 		description:
 			'Messi is not a good player',
-		tools: [react, node, monogdb],
+		tools: [Lifeisphysics, sed, some Tag],
 		live: 'https://mathematicssociety.vercel.app/',
 		repo: 'https://mathematicssociety.vercel.app/',
 		feature: true,
@@ -35,7 +35,7 @@ const projects = [
 		title: 'LifeISPhysics',
 		description:
 			'Life is not physics okay!',
-		tools: [react, springboot, hsql],
+		tools: [Nope, yes, sorry],
 		live: 'https://mathematicssociety.vercel.app/',
 		repo: 'https://mathematicssociety.vercel.app/',
 		feature: true,
@@ -45,7 +45,7 @@ const projects = [
 		title: 'MS',
 		description:
 			'MS',
-		tools: [next, styledcomponents],
+		tools: [fine, not fine],
 		live: 'https://mathematicssociety.vercel.app/',
 		repo: 'https://mathematicssociety.vercel.app/',
 		feature: false,
