@@ -1,6 +1,5 @@
 const { default: Container } = require('@/layouts/Container')
 const { default: ContentWrapper } = require('@/layouts/ContentWrapper')
-import Timeline from '@/components/Timeline'
 import React from 'react'
 
 const About = () => (
@@ -37,11 +36,6 @@ const Intro = () => (
 
 
 
-const TimelineContainer = () => (
-	<section>
-		<h1 className='heading'>Timeline</h1>
-		<Timeline />
-	</section>
-)
+
 
 export default About
