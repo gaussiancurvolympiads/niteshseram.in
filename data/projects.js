@@ -1,7 +1,13 @@
 import {
-	Messi, Spam, Aliens,
-	Lifeisphysics, sed, sometag,
-	Nope, yes, sorry,fine, notfine
+	hsql,
+	MDX,
+	monogdb,
+	next,
+	node,
+	react,
+	springboot,
+	styledcomponents,
+	tailwind,
 } from '@/data/tools'
 
 const projects = [
