@@ -90,19 +90,10 @@ const ContactSection = () => (
 			<div className='mb-16 xl:mr-16 flex-1 max-w-full md:max-w-[70%]'>
 				<h3 className='font-bold text-xl md:text-lg mb-2'>Welcome!</h3>
 				<p className='mb-8'>
-					Contact
+					Contact Us via the form.
 				</p>
 				<p>
-					Or if you would prefer to, you can also reach us on our gmail mathematicalsocietyofficial@gmail.com 
-					<a
-						className='link'
-						href=' '
-						target='_blank'
-						rel='noreferrer noopener'
-					>
-						Twitter
-					</a>
-					.
+				If you would prefer to, you can also reach us on our gmail mathematicalsocietyofficial@gmail.com .
 				</p>
 			</div>
 			<ContactForm />
