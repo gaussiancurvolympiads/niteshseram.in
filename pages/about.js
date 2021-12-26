@@ -37,7 +37,7 @@ We have tons of resources to help you :
 - resources to help you to actually be productive
 - live solve and marathons that are held by our admins , that deliver you quality content LIVE!
 - contests like MSO and MSO  that challenges you make you exam ready!
-- our own made handouts that are probably best material for olympiads ( that is also  proven as our problem came nmtc stage1 and 2 both!!)                                                                                                                                                                                                   - a welcoming group of students that will solve your every academic doubts
+- our own made handouts that are probably best material for olympiads ( that is also  proven as our problem came nmtc stage 1 and 2 both!!)                                                                                                                                                                                                   - a welcoming group of students that will solve your every academic doubts
  - and many more that you will get by exploring our server , basically we are a group of students that wants  to spread the light of mathematics in the darks to enlight the kingdom of knowledge!                                                                                                                 We hope you join us and enjoy the art of problem solving!
 <br></br>
 Links:
