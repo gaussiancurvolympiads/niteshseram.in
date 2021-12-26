@@ -18,7 +18,7 @@ const projects = [
 		title: 'RMMC',
 		description:
 			'Upcoming Contest',
-	
+		tools: [next,next, next],
 		live: 'https://www.dropbox.com/s/8r8ugzahym38mn7/5_6136505038933066722.pdf?dl=0',
 		repo: 'https://www.dropbox.com/s/8r8ugzahym38mn7/5_6136505038933066722.pdf?dl=0',
 		feature: true,
