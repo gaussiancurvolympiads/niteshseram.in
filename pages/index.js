@@ -88,12 +88,12 @@ const ContactSection = () => (
 		<h2 className='text-center heading'>Get In Touch</h2>
 		<div className='flex flex-col lg:flex-row w-full items-center justify-around'>
 			<div className='mb-16 xl:mr-16 flex-1 max-w-full md:max-w-[70%]'>
-				<h3 className='font-bold text-xl md:text-lg mb-2'>!</h3>
+				<h3 className='font-bold text-xl md:text-lg mb-2'>Welcome!</h3>
 				<p className='mb-8'>
 					Contact
 				</p>
 				<p>
-					Or if you would prefer to, you can also reach us on 
+					Or if you would prefer to, you can also reach us on our gmail mathematicalsocietyofficial@gmail.com 
 					<a
 						className='link'
 						href=' '
