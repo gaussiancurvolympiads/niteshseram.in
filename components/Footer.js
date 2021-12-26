@@ -25,15 +25,10 @@ const FooterContent = () => (
 				<FooterLink href='/'>Home</FooterLink>
 				<FooterLink href='/about'>About</FooterLink>
 				<FooterLink href='/projects'>Contest</FooterLink>
-				<FooterLink href='/blog'>Blog</FooterLink>
 			</div>
 			<div className='flex flex-col items-start ml-[100%] sm:ml-20 md:ml-40'>
 				<h4 className='font-bold'>SOCIALS</h4>
-				<FooterLink href='https://mathematicssociety.vercel.app/'>Github</FooterLink>
-				<FooterLink href='https://mathematicssociety.vercel.app/'>Twitter</FooterLink>
-				<FooterLink href='https://mathematicssociety.vercel.app/'>
-					LinkedIn
-				</FooterLink>
+				<FooterLink href=' https://discord.gg/PFETTeZ9rk'>Discord</FooterLink>
 			</div>
 		</div>
 		<div className='flex flex-col items-start ml-0 sm:ml-20 md:ml-40 mt-12 sm:mt-0'>
